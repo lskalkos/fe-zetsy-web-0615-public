@@ -10,6 +10,15 @@ body {
 	font-family: 'Times New Roman', serif; 
 }
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -17,4 +26,47 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+.wrapper h1{
+	color: #81968E;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.wrapper h1 + img{
+	border: 4px solid #81968E;
+}
+
+.wrapper h2{
+	color: #515F61;
+}
+
+.wrapper p{
+	color: #484448;
+	font-size: 14px;
+}
+
+.wrapper a{
+	text-decoration: none;
+}
+
+.wrapper article{
+	background: #F3EBE9;
+	border: 4px solid #81968E;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 143px;
+	width: 228px;
+}
+
+.wrapper article:hover{
+	border: 4px solid blue;
+}
+
+.wrapper footer{
+	float: right;
+	margin: 20px 0px 20px;
+}
